@@ -55,8 +55,7 @@ return [
             'rules' => [
                 'save-products' => 'site/save-products',
                 '' => 'site/index',
-                'product-order' => 'site/product-order',
-                //'product-order/(.*)' => 'site/product-order'
+                'product-order' => 'site/product-order'
             ],
         ],
     ],

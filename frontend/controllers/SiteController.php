@@ -91,7 +91,7 @@ class SiteController extends Controller
             ->limit($pages->limit)
             ->all();
 
-        return $this->render('index', ['products' => $products, 'pages' => $pages]);
+        return $this->render('index', ['products' => $products, 'pages' => $pages, 'maxPrice' => "", 'minPrice' => "", 'sortOrder' => ""]);
     }
 
     /**
